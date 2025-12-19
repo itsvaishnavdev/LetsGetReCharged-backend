@@ -1,0 +1,72 @@
+# =========================
+# Python / Django
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment (VERY IMPORTANT)
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Django specific
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media & static collected files
+/media/
+staticfiles/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Tests / coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# PowerShell / Windows junk
+# =========================
+*.exe
+*.bat
+*.ps1
+
+# =========================
+# CSV backups (keep real CSVs if needed)
+# =========================
+*.bak
+*.tmp
